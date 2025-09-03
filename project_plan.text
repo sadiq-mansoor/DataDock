@@ -1,0 +1,73 @@
+flowchart TD
+    subgraph DataSources[Data Sources]
+        DS1[Structured DB (Postgres, MySQL)]
+        DS2[Semi-structured (CSV, JSON, XML)]
+        DS3[Unstructured (Logs, Flat Files)]
+    end
+
+    subgraph SchemaMgmt[Schema & Data Relations]
+        A[Auto Schema Detection]
+        B[Manual Schema Mapping - Drag & Drop Relationships]
+        C[Schema Snapshot + Change Warning]
+        DS1 --> A
+        DS2 --> A
+        DS3 --> A
+        A --> C
+        B --> C
+    end
+
+    subgraph SearchAnalysis[Search & Analysis]
+        SA1[Search API]
+        SA2[Retrieve all person-related records across tables]
+        SA3[Apply Sensitive Field Restrictions]
+        SA4[Assign Categories/Tags to Records]
+        SA1 --> SA2 --> SA3 --> SA4
+    end
+
+    subgraph UserConsole[User Console & Retrieval]
+        UC1[Global Search (by Name/Identifier)]
+        UC2[Result Grouping by Person]
+        UC3[Detailed Record Viewer with Provenance]
+        UC4[Export CSV/PDF]
+        UC1 --> UC2 --> UC3 --> UC4
+    end
+
+    subgraph AuditLogs[Audit & Logging]
+        L1[Log All Actions with Timestamp]
+        L2[Track (Super-Admin, Admin, User) Name + Action]
+        L3[Log Data Exports as Activity]
+        L4[Store Logs Locally - Immutable]
+        L1 --> L2 --> L3 --> L4
+    end
+
+    subgraph Roles[Roles & Permissions]
+        R1[Super-Admin: Add Data Sources, Create Admin/User Credentials]
+        R2[Admin: Monitor User Activities]
+        R3[User: Retrieve Info Only]
+    end
+
+    subgraph Security[Data Maintenance & Security]
+        S1[Restricted Access to Sensitive Fields]
+        S2[No Internet - Complete Offline System]
+        S3[No Integration with External Tools]
+        S4[Schema Change Protection Enabled]
+    end
+
+    subgraph Export[Exports]
+        E1[Export to CSV]
+        E2[Export to PDF]
+        E3[Log Export Action]
+        UC4 --> E1
+        UC4 --> E2
+        E1 --> E3
+        E2 --> E3
+    end
+
+    %% Connections
+    SchemaMgmt --> SearchAnalysis
+    SearchAnalysis --> UserConsole
+    UserConsole --> Export
+    UserConsole --> AuditLogs
+    AuditLogs --> Roles
+    Roles --> Security
+    Security --> UserConsole

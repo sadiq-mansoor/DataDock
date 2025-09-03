@@ -1,0 +1,11 @@
+id,first_name,last_name,email,department,salary,hire_date,phone
+1,John,Smith,john.smith@company.com,Engineering,75000,2020-01-15,555-0101
+2,Sarah,Johnson,sarah.johnson@company.com,Marketing,65000,2019-03-20,555-0102
+3,Michael,Brown,michael.brown@company.com,Sales,70000,2021-06-10,555-0103
+4,Emily,Davis,emily.davis@company.com,HR,60000,2020-11-05,555-0104
+5,David,Wilson,david.wilson@company.com,Engineering,80000,2018-09-12,555-0105
+6,Lisa,Anderson,lisa.anderson@company.com,Finance,72000,2021-02-28,555-0106
+7,Robert,Taylor,robert.taylor@company.com,Sales,68000,2019-08-15,555-0107
+8,Jennifer,Thomas,jennifer.thomas@company.com,Marketing,63000,2020-04-22,555-0108
+9,Christopher,Lee,christopher.lee@company.com,Engineering,85000,2017-12-03,555-0109
+10,Amanda,White,amanda.white@company.com,HR,58000,2021-09-18,555-0110

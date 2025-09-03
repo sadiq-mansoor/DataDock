@@ -1,0 +1,9 @@
+@echo off
+echo Starting Data Retrieval System...
+echo.
+echo Installing dependencies...
+pip install -r requirements.txt
+echo.
+echo Starting the application...
+streamlit run app.py
+pause

@@ -1,0 +1,35 @@
+{"timestamp": "2025-09-02T20:50:28.492058", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-02T20:58:48.114964", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-02T20:59:51.048376", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-02T21:07:07.188695", "user_id": 1, "action": "create_data_source", "details": {"data_source_name": "Customer", "data_source_type": "csv"}, "ip_address": null}
+{"timestamp": "2025-09-02T21:08:00.303358", "user_id": 1, "action": "create_data_source", "details": {"data_source_name": "Customer messy", "data_source_type": "csv"}, "ip_address": null}
+{"timestamp": "2025-09-02T21:08:15.349576", "user_id": 1, "action": "delete_data_source", "details": {"data_source_id": 2, "data_source_name": "Customer messy"}, "ip_address": null}
+{"timestamp": "2025-09-02T21:08:27.513943", "user_id": 1, "action": "create_data_source", "details": {"data_source_name": "Customer messy", "data_source_type": "csv"}, "ip_address": null}
+{"timestamp": "2025-09-02T21:10:06.758356", "user_id": 1, "action": "refresh_schema", "details": {"data_source_id": 1, "data_source_name": "Customer"}, "ip_address": null}
+{"timestamp": "2025-09-02T21:24:18.211813", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-02T21:24:48.645123", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-02T21:31:53.526968", "user_id": 1, "action": "refresh_schema", "details": {"data_source_id": 1, "data_source_name": "Customer"}, "ip_address": null}
+{"timestamp": "2025-09-02T21:40:04.989676", "user_id": 1, "action": "global_search", "details": {"identifier": "15737888", "results_count": 2, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 15}, "ip_address": null}
+{"timestamp": "2025-09-02T21:47:09.164895", "user_id": 1, "action": "global_search", "details": {"identifier": "Hargrave", "results_count": 4, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 18}, "ip_address": null}
+{"timestamp": "2025-09-02T21:48:34.032224", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-02T21:48:52.060550", "user_id": 1, "action": "global_search", "details": {"identifier": "Hargrave", "results_count": 4, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 19}, "ip_address": null}
+{"timestamp": "2025-09-02T21:56:04.747165", "user_id": 1, "action": "global_search", "details": {"identifier": "15737888", "results_count": 2, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 20}, "ip_address": null}
+{"timestamp": "2025-09-02T22:21:08.548482", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-02T22:22:51.432818", "user_id": 1, "action": "global_search", "details": {"identifier": "Hargrave", "results_count": 4, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 21}, "ip_address": null}
+{"timestamp": "2025-09-02T22:23:40.413520", "user_id": 1, "action": "global_search", "details": {"identifier": "15634602", "results_count": 2, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 22}, "ip_address": null}
+{"timestamp": "2025-09-03T08:02:03.366758", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-03T08:05:03.068088", "user_id": 1, "action": "global_search", "details": {"identifier": "Hargrave", "results_count": 4, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 23}, "ip_address": null}
+{"timestamp": "2025-09-03T08:23:19.476864", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-03T08:24:20.875017", "user_id": 1, "action": "global_search", "details": {"identifier": "Hargrave", "results_count": 4, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 24}, "ip_address": null}
+{"timestamp": "2025-09-03T08:37:18.257374", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-03T08:37:34.115671", "user_id": 1, "action": "global_search", "details": {"identifier": "Hargrave", "results_count": 4, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 25}, "ip_address": null}
+{"timestamp": "2025-09-03T10:46:30.935626", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-03T11:47:03.373433", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-03T11:47:53.824620", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-03T11:48:02.318382", "user_id": 1, "action": "global_search", "details": {"identifier": "Hargrave", "results_count": 4, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 26}, "ip_address": null}
+{"timestamp": "2025-09-03T11:52:10.397543", "user_id": 1, "action": "delete_data_source", "details": {"data_source_id": 3, "data_source_name": "Customer messy"}, "ip_address": null}
+{"timestamp": "2025-09-03T11:52:39.540561", "user_id": 1, "action": "create_data_source", "details": {"data_source_name": "Customer messy", "data_source_type": "csv"}, "ip_address": null}
+{"timestamp": "2025-09-03T11:52:49.424079", "user_id": 1, "action": "global_search", "details": {"identifier": "Hargrave", "results_count": 4, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 27}, "ip_address": null}
+{"timestamp": "2025-09-03T17:55:08.475847", "user_id": 1, "action": "login", "details": {"username": "admin"}, "ip_address": null}
+{"timestamp": "2025-09-03T17:58:04.821594", "user_id": 1, "action": "refresh_schema", "details": {"data_source_id": 1, "data_source_name": "Customer"}, "ip_address": null}
+{"timestamp": "2025-09-03T17:58:47.986297", "user_id": 1, "action": "global_search", "details": {"identifier": "Hargrave", "results_count": 4, "data_sources_queried": ["Customer", "Customer messy"], "search_session_id": 28}, "ip_address": null}

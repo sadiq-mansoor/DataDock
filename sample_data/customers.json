@@ -1,0 +1,57 @@
+[
+  {
+    "customer_id": "C001",
+    "first_name": "Alice",
+    "last_name": "Johnson",
+    "email": "alice.johnson@email.com",
+    "phone": "555-0201",
+    "address": "123 Main St, City, State 12345",
+    "membership_level": "Gold",
+    "join_date": "2020-05-15",
+    "total_purchases": 2500.00
+  },
+  {
+    "customer_id": "C002",
+    "first_name": "Bob",
+    "last_name": "Williams",
+    "email": "bob.williams@email.com",
+    "phone": "555-0202",
+    "address": "456 Oak Ave, City, State 12345",
+    "membership_level": "Silver",
+    "join_date": "2021-02-10",
+    "total_purchases": 1200.00
+  },
+  {
+    "customer_id": "C003",
+    "first_name": "Carol",
+    "last_name": "Davis",
+    "email": "carol.davis@email.com",
+    "phone": "555-0203",
+    "address": "789 Pine Rd, City, State 12345",
+    "membership_level": "Bronze",
+    "join_date": "2021-08-22",
+    "total_purchases": 800.00
+  },
+  {
+    "customer_id": "C004",
+    "first_name": "David",
+    "last_name": "Miller",
+    "email": "david.miller@email.com",
+    "phone": "555-0204",
+    "address": "321 Elm St, City, State 12345",
+    "membership_level": "Gold",
+    "join_date": "2019-11-05",
+    "total_purchases": 3500.00
+  },
+  {
+    "customer_id": "C005",
+    "first_name": "Eva",
+    "last_name": "Garcia",
+    "email": "eva.garcia@email.com",
+    "phone": "555-0205",
+    "address": "654 Maple Dr, City, State 12345",
+    "membership_level": "Silver",
+    "join_date": "2020-12-18",
+    "total_purchases": 1800.00
+  }
+]
