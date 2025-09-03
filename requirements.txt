@@ -5,5 +5,7 @@ psycopg2-binary==2.9.9
 pymysql==1.1.0
 reportlab==4.0.7
 python-dotenv==1.0.0
-bcrypt==4.0.1
-cryptography==38.0.4
+passlib[bcrypt]==1.7.4
+cryptography>=42.0.5
+altair>=5.0.0
+pyarrow>=14.0.1
